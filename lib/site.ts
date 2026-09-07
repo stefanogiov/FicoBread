@@ -2,7 +2,7 @@ export const site = {
   name: "Fico Bread",
   tagline: "Pane a lievitazione naturale",
   // Digits only, international format, no + or spaces — used for wa.me links
-  whatsapp: "393401234567",
+  whatsapp: "393477263703",
   whatsappMessage: "Ciao! Vorrei ordinare del pane per questa settimana.",
   email: "ciao@microforno.it",
   address: {
