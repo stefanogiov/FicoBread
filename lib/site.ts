@@ -1,6 +1,6 @@
 export const site = {
   name: "Fico Bread",
-  tagline: "Pane a lievitazione naturale",
+  tagline: " Storie di pane, pizza e lievitati",
   // Digits only, international format, no + or spaces — used for wa.me links
   whatsapp: "393477263703",
   whatsappMessage: "Ciao! Vorrei ordinare del pane per questa settimana.",
