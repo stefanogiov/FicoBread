@@ -43,6 +43,13 @@ const products: Product[] = [
     tags: ["Sfoglia", "Solo mattina"],
   },
   {
+    name: "Pan brioche",
+    image: "/images/product-pan-brioche.png",
+    description:
+      "Soffice e dorato, impasto burroso e leggermente dolce, perfetto per la colazione.",
+    tags: ["Lievito madre", "Solo mattina"],
+  },
+  {
     name: "Focaccia alle Erbe",
     image: "/images/product-focaccia.png",
     description:
