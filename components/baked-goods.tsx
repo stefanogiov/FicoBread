@@ -43,11 +43,18 @@ const products: Product[] = [
     tags: ["Sfoglia", "Solo mattina"],
   },
   {
-    name: "Pan brioche",
-    image: "/images/product-pan-brioche.png",
+    name: "Pan bauletto",
+    image: "/images/product-pan-bauletto.png",
     description:
-      "Soffice e dorato, impasto burroso e leggermente dolce, perfetto per la colazione.",
+      "Soffice e dorato, in formato bauletto: ideale per toast, tramezzini e colazioni.",
     tags: ["Lievito madre", "Solo mattina"],
+  },
+  {
+    name: "Lingua di pizza rossa",
+    image: "/images/product-lingua-pizza-rossa.png",
+    description:
+      "Sottile e croccante, con salsa di pomodoro e bordi dorati. Da gustare a morsi.",
+    tags: ["Sfoglia", "Solo mattina"],
   },
   {
     name: "Focaccia alle Erbe",
