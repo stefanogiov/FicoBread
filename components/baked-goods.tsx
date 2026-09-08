@@ -9,11 +9,38 @@ type Product = {
 
 const products: Product[] = [
   {
-    name: "Pagnotta Madre",
-    image: "/images/product-sourdough.png",
-    description:
-      "La nostra pagnotta di grano semi-integrale, crosta croccante e mollica alveolata. 1 kg.",
+    name: "Bianco Rustico",
+    image: "/images/product-bianco-rustico.png",
+    description: "Farina tipo 2 e tipo 0, crosta croccante e mollica soffice.",
     tags: ["Lievito madre", "Ogni giorno"],
+  },
+  {
+    name: "Multicereali e semi",
+    image: "/images/product-multicereali.png",
+    description:
+      "Mix di farine di granoduro, grano tenero, segale, farro, riso, saraceno e semi di lino, girasole, zucca, miglio.",
+    tags: ["Lievito madre", "Ogni giorno"],
+  },
+  {
+    name: "Pane integrale",
+    image: "/images/product-integrale.png",
+    description:
+      "Farina integrale macinata a pietra, ricco di fibre e dal sapore intenso.",
+    tags: ["Lievito madre", "Ogni giorno"],
+  },
+  {
+    name: "Pane al cacao",
+    image: "/images/product-cacao.png",
+    description:
+      "Impasto arricchito con cacao, note dolci e mollica scura e morbida.",
+    tags: ["Lievito madre", "Solo weekend"],
+  },
+  {
+    name: "Sfogliati",
+    image: "/images/product-sfogliati.png",
+    description:
+      "Sfoglia lievitata a lungo e burrosa, croccante e dorata a ogni strato.",
+    tags: ["Sfoglia", "Solo mattina"],
   },
   {
     name: "Focaccia alle Erbe",
@@ -21,20 +48,6 @@ const products: Product[] = [
     description:
       "Soffice e dorata, con olio extravergine, rosmarino e sale grosso. Perfetta da condividere.",
     tags: ["Lievito madre", "Solo weekend"],
-  },
-  {
-    name: "Ciabatta Rustica",
-    image: "/images/product-ciabatta.png",
-    description:
-      "Ad alta idratazione, leggera e croccante. Ideale per bruschette e panini.",
-    tags: ["Lievito madre", "Ogni giorno"],
-  },
-  {
-    name: "Cornetti al Burro",
-    image: "/images/product-croissant.png",
-    description:
-      "Sfoglia lievitata a lungo con burro di montagna. Solo la mattina, finché durano.",
-    tags: ["Sfoglia", "Solo mattina"],
   },
 ]
 
