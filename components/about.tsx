@@ -10,12 +10,7 @@ const steps = [
     icon: Sprout,
     title: "Ingredienti del territorio",
     body: "Farine macinate a pietra da mulini locali, acqua e sale marino. Nient'altro: nessun additivo, nessuna fretta.",
-  },
-  {
-    icon: Flame,
-    title: "Cottura a legna",
-    body: "Il forno a legna dà alla crosta il suo colore ambrato e alla mollica quel profumo che sa di casa.",
-  },
+  }
 ]
 
 export function About() {

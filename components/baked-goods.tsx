@@ -11,14 +11,14 @@ const products: Product[] = [
   {
     name: "Bianco Rustico",
     image: "/images/product-bianco-rustico.png",
-    description: "Farina tipo 2 e tipo 0, crosta croccante e mollica soffice.",
+    description: "Farina tipo 1, tipo 2 e segale, crosta croccante e mollica soffice.",
     tags: ["Lievito madre", "Ogni giorno"],
   },
   {
     name: "Multicereali e semi",
     image: "/images/product-multicereali.png",
     description:
-      "Mix di farine di granoduro, grano tenero, segale, farro, riso, saraceno e semi di lino, girasole, zucca, miglio.",
+      "Mix di farine di grano duro, grano tenero, farro, segale, riso, mais, grano saraceno e semi di lino, semi di zucca, semi di sesamo, girasole e papavero.",
     tags: ["Lievito madre", "Ogni giorno"],
   },
   {
@@ -28,12 +28,19 @@ const products: Product[] = [
       "Farina integrale macinata a pietra, ricco di fibre e dal sapore intenso.",
     tags: ["Lievito madre", "Ogni giorno"],
   },
+    {
+    name: "Pane al farro",
+    image: "/images/product-farro.jpeg",
+    description:
+      "Intenso e persistente, con sentori di campo e lievito naturale..",
+    tags: ["Lievito madre", "Ogni giorno"],
+  },
   {
     name: "Pane al cacao",
     image: "/images/product-cacao.png",
     description:
       "Impasto arricchito con cacao, note dolci e mollica scura e morbida.",
-    tags: ["Lievito madre", "Solo weekend"],
+    tags: ["Lievito madre", "Ogni giorno"],
   },
   {
     name: "Sfogliati",
@@ -50,18 +57,11 @@ const products: Product[] = [
     tags: ["Lievito madre", "Solo mattina"],
   },
   {
-    name: "Lingua di pizza rossa",
-    image: "/images/product-lingua-pizza-rossa.png",
-    description:
-      "Sottile e croccante, con salsa di pomodoro e bordi dorati. Da gustare a morsi.",
-    tags: ["Sfoglia", "Solo mattina"],
-  },
-  {
     name: "Focaccia alle Erbe",
     image: "/images/product-focaccia.png",
     description:
       "Soffice e dorata, con olio extravergine, rosmarino e sale grosso. Perfetta da condividere.",
-    tags: ["Lievito madre", "Solo weekend"],
+    tags: ["Lievito madre", "Ogni giorno"],
   },
 ]
 

@@ -2,16 +2,16 @@ import { Clock, Croissant } from "lucide-react"
 
 const hours = [
   { day: "Lunedì", time: "Chiuso", closed: true },
-  { day: "Martedì – Venerdì", time: "07:30 – 13:30 · 16:30 – 19:30" },
-  { day: "Sabato", time: "07:30 – 14:00" },
-  { day: "Domenica", time: "08:00 – 13:00" },
+  { day: "Martedì – Venerdì", time: "08:30 – 13:30 · 15:30 – 18:30" },
+  { day: "Sabato", time: "08:30 – 13:00" },
+  { day: "Domenica", time: "Chiuso", closed: true },
 ]
 
 const bakeTimes = [
-  { time: "07:30", what: "Pagnotte madre & ciabatte" },
-  { time: "08:00", what: "Cornetti e sfoglie del mattino" },
-  { time: "11:00", what: "Seconda infornata di pane" },
-  { time: "17:00", what: "Focaccia calda (mar–ven)" },
+  { time: "08:30", what: "Pagnotte madre" },
+  { time: "08:30", what: "Cornetti e sfoglie del mattino" },
+  { time: "11:00", what: "Focaccia calda e pizza" },
+  { time: "15:00", what: "Seconda infornata di pane" },
 ]
 
 export function Schedule() {
