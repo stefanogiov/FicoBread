@@ -99,7 +99,7 @@ export function Contact() {
                 className="rounded-lg border border-input bg-background px-4 py-2.5 text-foreground outline-none transition-colors placeholder:text-muted-foreground/70 focus-visible:ring-2 focus-visible:ring-ring"
               />
             </div>
-            <div className="flex flex-col gap-2">
+            {/* <div className="flex flex-col gap-2">
               <label htmlFor="email" className="text-sm font-medium text-foreground">
                 Email
               </label>
@@ -112,7 +112,7 @@ export function Contact() {
                 placeholder="tu@esempio.it"
                 className="rounded-lg border border-input bg-background px-4 py-2.5 text-foreground outline-none transition-colors placeholder:text-muted-foreground/70 focus-visible:ring-2 focus-visible:ring-ring"
               />
-            </div>
+            </div> */}
             <div className="flex flex-1 flex-col gap-2">
               <label
                 htmlFor="message"
