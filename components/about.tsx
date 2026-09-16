@@ -1,4 +1,4 @@
-import { Clock, Sprout, Flame } from "lucide-react"
+import { Clock, Sprout, Heart } from "lucide-react"
 
 const steps = [
   {
@@ -10,8 +10,14 @@ const steps = [
     icon: Sprout,
     title: "Ingredienti del territorio",
     body: "Farine macinate a pietra da mulini locali, acqua e sale marino. Nient'altro: nessun additivo, nessuna fretta.",
+  },
+  {
+    icon: Heart,
+    title: "Alta digeribilità",
+    body: "Grazie alla lunga fermentazione naturale, gli zuccheri e il glutine vengono scomposti naturalmente, rendendo il pane leggero e nutriente.",
   }
 ]
+
 
 export function About() {
   return (
