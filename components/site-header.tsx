@@ -18,9 +18,8 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5">
         <Link href="#top" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-          <Wheat className="size-5 text-primary" aria-hidden="true" />
           <span className="font-serif text-lg font-semibold tracking-tight text-foreground">
-            Fico Bread
+            <img src="images/logo.png" alt="Logo FicoBread" width="80" height="auto"></img>
           </span>
         </Link>
 

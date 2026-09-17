@@ -57,10 +57,10 @@ const products: Product[] = [
     tags: ["Lievito madre", "Solo mattina"],
   },
   {
-    name: "Focaccia alle Erbe",
+    name: "Focaccie",
     image: "/images/product-focaccia.png",
     description:
-      "Soffice e dorata, con olio extravergine, rosmarino e sale grosso. Perfetta da condividere.",
+      "Soffici e dorate, con olio extravergine, rosmarino e pomodorini. Perfetta da condividere.",
     tags: ["Lievito madre", "Ogni giorno"],
   },
 ]

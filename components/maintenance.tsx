@@ -4,9 +4,13 @@ export default function Maintenance() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-background px-5 text-center">
       <div className="relative">
+        <img src="images/logo.png" alt="Logo FicoBread" width="200" height="auto"></img>
+      </div>
+
+      {/* <div className="relative">
         <div className="absolute -inset-4 animate-pulse rounded-full bg-primary/20 blur-xl" />
         <Flame className="relative size-16 text-primary" />
-      </div>
+      </div> */}
       
       <h1 className="mt-8 font-serif text-4xl font-semibold tracking-tight text-foreground md:text-6xl">
         Stiamo scaldando i forni!
