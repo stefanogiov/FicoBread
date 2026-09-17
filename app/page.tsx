@@ -6,9 +6,20 @@ import { Schedule } from "@/components/schedule"
 import { Contact } from "@/components/contact"
 import { SiteFooter } from "@/components/site-footer"
 
+import Maintenance from "@/components/maintenance"
+
+
 export default function Page() {
+  const isMaintenanceMode = false // Cambia in false per mostrare il sito completo
+
+  if (isMaintenanceMode) {
+    return <Maintenance />
+  }
+
   return (
     <>
+      {/* ... rest of the code ... */}
+
       <SiteHeader />
       <main>
         <Hero />
