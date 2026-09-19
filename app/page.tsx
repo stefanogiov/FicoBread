@@ -10,7 +10,7 @@ import Maintenance from "@/components/maintenance"
 
 
 export default function Page() {
-  const isMaintenanceMode = true // Cambia in false per mostrare il sito completo
+  const isMaintenanceMode = false // Cambia in false per mostrare il sito completo
 
   if (isMaintenanceMode) {
     return <Maintenance />
