@@ -1,5 +1,5 @@
 export const site = {
-  name: "Fico Bread",
+  name: "Fico Bread S.r.l.s.",
   tagline: "Storie di pane, pizza e lievitati",
   // Digits only, international format, no + or spaces — used for wa.me links
   whatsapp: "390683384443",
