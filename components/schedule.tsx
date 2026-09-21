@@ -33,7 +33,7 @@ const breadCalendar = [
     badge: "Classici",
     isSpecial: false,
     breads: ["Bianco Rustico", "Integrale", "Multicereali e Semi"],
-    description: "I grandi classici a lievitazione naturale e lenta maturazione.",
+    description: "I grandi classici a lievito madre e lenta maturazione.",
   },
   {
     day: "Mercoledì",
