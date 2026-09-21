@@ -4,7 +4,7 @@ const steps = [
   {
     icon: Clock,
     title: "36 ore di lievitazione",
-    body: "Ogni pagnotta riposa a lungo con il nostro lievito madre, rinfrescato ogni giorno da oltre dieci anni.",
+    body: "Ogni pagnotta riposa a lungo con il nostro lievito madre, rinfrescato ogni giorno.",
   },
   {
     icon: Sprout,
