@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { MapPin, Mail, MessageCircle, Phone, Check } from "lucide-react"
 import { site, whatsappLink } from "@/lib/site"
+import { GoogleMap } from "@/components/google-map"
 
 export function Contact() {
   const [sent, setSent] = useState(false)
@@ -35,11 +36,9 @@ export function Contact() {
         <div className="mt-14 grid gap-7 lg:grid-cols-2">
           <div className="flex flex-col gap-6">
             <div className="overflow-hidden rounded-2xl border border-border">
-              <iframe
+              <GoogleMap
                 title={`Mappa: ${site.address.street}, ${site.address.city}`}
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.378792376667!2d12.88469467591255!3d41.83421317124654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f81e9014de823%3A0x8abd0232ddbb4361!2sFico%20Bread%20-%20Storie%20di%20pane%2C%20pizza%20e%20lievitati!5e1!3m2!1sit!2sit!4v1788773753963!5m2!1sit!2sit"
-                className="aspect-[16/10] w-full grayscale-[0.2]"
-                loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.378792376667!2d12.88469467591255!3d41.83421317124654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f81e9014de823%3A0x8abd0232ddbb4361!2sFico%20Bread%20-%20Storie%20di%20pane%2C%20pizza%20e%20lievitati!5e0!3m2!1sit!2sit!4v1788773753963!5m2!1sit!2sit"
               />
             </div>
 

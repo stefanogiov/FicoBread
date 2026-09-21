@@ -1,4 +1,5 @@
 import { Wheat } from "lucide-react"
+import Link from "next/link"
 import { site } from "@/lib/site"
 
 export function SiteFooter() {
@@ -15,6 +16,12 @@ export function SiteFooter() {
           <p className="text-sm text-muted-foreground">
             {site.address.street}, {site.address.city}
           </p>
+          <Link
+            href="/privacy"
+            className="text-sm text-muted-foreground underline underline-offset-4 transition-colors hover:text-primary"
+          >
+            Privacy & Cookie Policy
+          </Link>
         </div>
 
         <div className="flex flex-col items-center gap-4 sm:items-end">
