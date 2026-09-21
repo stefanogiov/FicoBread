@@ -31,7 +31,7 @@ export function About() {
             Tempo, mani e lievito madre
           </h2>
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
-            Fico Bread nasce da un&apos;ossessione semplice: fare del buon
+            Fico Bread nasce da una passione semplice: fare del buon
             pane senza scorciatoie. Lavoriamo con lievito madre,
             impastiamo a mano e lasciamo che sia il tempo a sviluppare gusto,
             profumo e digeribilità.
