@@ -28,13 +28,13 @@ const products: Product[] = [
       "Farina integrale macinata a pietra, ricco di fibre e dal sapore intenso.",
     tags: ["Lievito madre", "Ogni giorno"],
   },
-    {
+/*     {
     name: "Pane al farro",
     image: "/images/product-farro.jpeg",
     description:
       "Intenso e persistente, con sentori di campo e lievito naturale..",
     tags: ["Lievito madre", "Ogni giorno"],
-  },
+  }, */
   {
     name: "Pane al cacao",
     image: "/images/product-cacao.png",
@@ -49,13 +49,13 @@ const products: Product[] = [
       "Sfoglia lievitata a lungo e burrosa, croccante e dorata a ogni strato.",
     tags: ["Sfoglia", "Solo mattina"],
   },
-  {
-    name: "Pan bauletto",
-    image: "/images/product-pan-bauletto.png",
+/*   {
+    name: "Pizza in teglia",
+    image: "/images/product-lingua-pizza-rossa.png",
     description:
-      "Soffice e dorato, in formato bauletto: ideale per toast, tramezzini e colazioni.",
-    tags: ["Lievito madre", "Solo mattina"],
-  },
+      "Ad alta idratazione e a lunga lievitazione naturale: croccante alla base e morbida all'interno.",
+    tags: ["Lievito madre", "Ogni giorno"],
+  }, */
   {
     name: "Focaccie",
     image: "/images/product-focaccia.png",
@@ -88,6 +88,9 @@ export function BakedGoods() {
             <h2 className="mt-4 text-balance font-serif text-4xl font-semibold leading-tight text-foreground md:text-5xl">
               Cosa esce dal forno
             </h2>
+            <p className="mt-2 text-base font-medium text-foreground/80">
+              Pani conciati, sfogliati, pizza in teglia e alla pala
+            </p>
           </div>
           <p className="max-w-sm text-pretty leading-relaxed text-muted-foreground">
             Le quantità sono limitate: consigliamo di prenotare in anticipo per
@@ -95,7 +98,7 @@ export function BakedGoods() {
           </p>
         </div>
 
-        <ul className="mt-12 grid gap-7 sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="mt-12 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
           {products.map((product) => (
             <li
               key={product.name}
