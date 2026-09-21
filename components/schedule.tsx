@@ -32,40 +32,47 @@ const breadCalendar = [
     title: "Pagnotte Classiche",
     badge: "Classici",
     isSpecial: false,
-    breads: ["Bianco Rustico", "Integrale", "Multicereali e Semi"],
+    breads: ["Rustico", "Semi-Integrale", "Multicereali e Semi"],
     description: "I grandi classici a lievito madre e lenta maturazione.",
   },
   {
     day: "Mercoledì",
-    title: "Pane al Cacao",
+    title: "Il Campagnolo (il pane della nonna)",
     badge: "Speciale",
     isSpecial: true,
-    breads: ["Pagnotte classiche", "Pane al Cacao fondente"],
-    description: "Impasto arricchito con cacao amaro, note tostate e mollica morbidissima.",
+    breads: ["Rustico", "Integrale 100%", "Campagnolo", "Multicereali e Semi"],
+    description: "Fatto con patate lesse, farina tipo 1 e farro.",
   },
   {
     day: "Giovedì",
-    title: "Pane Campagnolo",
+    title: "Pane Cafone",
     badge: "Speciale",
     isSpecial: true,
-    breads: ["Pagnotte classiche", "Pane Campagnolo"],
-    description: "Grani antichi e farine macinate a pietra per un aroma rustico e deciso.",
+    breads: ["Rustico", "Integrale 100%", "Semola (Cafone)", "Multicereali e Semi"],
+    description: "Fatto con semola di grano duro.",
   },
   {
     day: "Venerdì",
-    title: "Pagnotte Classiche",
-    badge: "Classici",
-    isSpecial: false,
-    breads: ["Bianco Rustico", "Integrale", "Multicereali e Semi"],
-    description: "Tutta la gamma classica sfornata fresca per iniziare al meglio il fine settimana.",
+    title: "Cacao & Segale",
+    badge: "Speciale",
+    isSpecial: true,
+    breads: ["Rustico", "Integrale 100%", "Cacao", "Segale", "Multicereali e Semi"],
+    description: "Pani speciali al cacao e alla segale insieme ai nostri impasti classici.",
   },
   {
     day: "Sabato",
-    title: "Weekend & Sfogliati",
+    title: "Weekend & Speciali",
     badge: "Weekend",
     isSpecial: true,
-    breads: ["Tutti i pani classici", "Speciali del weekend & Sfogliati"],
-    description: "Banco al completo: pagnotte speciali e ricca produzione di sfoglie artigianali.",
+    breads: [
+      "Rustico",
+      "Integrale 100%",
+      "Farro",
+      "Cacao",
+      "Multicereali e Semi",
+      "Occasionalmente pani speciali",
+    ],
+    description: "Banco al completo con pani classici, farro, cacao e creazioni speciali.",
   },
 ]
 
@@ -167,7 +174,7 @@ export function Schedule() {
                     <li
                       key={bread}
                       className={`text-xs ${
-                        bread.includes("Cacao") || bread.includes("Campagnolo") || bread.includes("Speciali")
+                        bread.includes("Cacao") || bread.includes("Campagnolo") || bread.includes("Semola") || bread.includes("Segale") || bread.includes("Farro") || bread.toLowerCase().includes("special")
                           ? "font-semibold text-foreground"
                           : "text-muted-foreground"
                       }`}
