@@ -28,7 +28,7 @@ export function About() {
             Il nostro metodo
           </span>
           <h2 className="mt-4 text-balance font-serif text-4xl font-semibold leading-tight text-foreground md:text-5xl">
-            Tempo, mani e lievito madre.
+            Tempo, mani e lievito madre
           </h2>
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
             Fico Bread nasce da un&apos;ossessione semplice: fare del buon
