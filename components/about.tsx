@@ -9,7 +9,7 @@ const steps = [
   {
     icon: Sprout,
     title: "Ingredienti del territorio",
-    body: "Farine macinate a pietra da mulini locali, acqua e sale marino. Nient'altro: nessun additivo, nessuna fretta.",
+    body: "Farine macinate a pietra da mulini biologici, acqua e sale marino. Nient'altro: nessun additivo, nessuna fretta.",
   },
   {
     icon: Heart,
