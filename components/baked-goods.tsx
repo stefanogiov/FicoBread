@@ -57,7 +57,7 @@ const products: Product[] = [
     tags: ["Lievito madre", "Ogni giorno"],
   }, */
   {
-    name: "Focaccie",
+    name: "Focacce",
     image: "/images/product-focaccia.png",
     description:
       "Soffici e dorate, con olio extravergine, rosmarino e pomodorini. Perfetta da condividere.",
