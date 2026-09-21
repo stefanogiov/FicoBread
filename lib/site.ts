@@ -9,7 +9,7 @@ export const site = {
   email: "ficobread@gmail.com",
   address: {
     street: "Viale Ungheria 8",
-    city: "00036 Palestina (RM)",
+    city: "00036 Palestrina (RM)",
   },
 }
 
