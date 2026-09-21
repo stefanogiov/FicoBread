@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { MapPin, Mail, MessageCircle, Check } from "lucide-react"
+import { MapPin, Mail, MessageCircle, Phone, Check } from "lucide-react"
 import { site, whatsappLink } from "@/lib/site"
 
 export function Contact() {
@@ -43,7 +43,7 @@ export function Contact() {
               />
             </div>
 
-            <div className="grid gap-4 sm:grid-cols-3">
+            <div className="grid gap-4 sm:grid-cols-2">
               <div className="rounded-2xl border border-border bg-card p-5">
                 <MapPin className="size-5 text-primary" aria-hidden="true" />
                 <p className="mt-3 text-sm font-semibold text-foreground">
@@ -55,6 +55,18 @@ export function Contact() {
                   {site.address.city}
                 </p>
               </div>
+              <a
+                href={site.phoneHref}
+                className="rounded-2xl border border-border bg-card p-5 transition-colors hover:bg-secondary"
+              >
+                <Phone className="size-5 text-primary" aria-hidden="true" />
+                <p className="mt-3 text-sm font-semibold text-foreground">
+                  Telefono
+                </p>
+                <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+                  {site.phone}
+                </p>
+              </a>
               <a
                 href={whatsappLink()}
                 target="_blank"
