@@ -19,7 +19,7 @@ export function Hero() {
         </span>
 
         <h1 className="max-w-3xl text-balance font-serif text-5xl font-semibold leading-[1.05] text-foreground sm:text-6xl md:text-7xl">
-          Pane a lievito madre, sfornato ogni mattina.
+          Pane a lievito madre, sfornato ogni mattina
         </h1>
 
         <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
