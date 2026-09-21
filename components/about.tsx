@@ -37,8 +37,7 @@ export function About() {
             profumo e digeribilità.
           </p>
           <p className="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">
-            Sforniamo piccole quantità ogni giorno, così ogni pagnotta arriva
-            fresca. Quello che facciamo, lo facciamo bene e in poche mani.
+            Sforniamo piccole quantità ogni giorno. Facciamo poche cose, con cura, e le facciamo bene.
           </p>
         </div>
 
