@@ -1,5 +1,5 @@
-import { Clock, Croissant, Calendar, Sparkles, MessageCircle } from "lucide-react"
-import { whatsappLink } from "@/lib/site"
+import { Clock, Croissant, Calendar, Sparkles, MessageCircle, Phone } from "lucide-react"
+import { site, whatsappLink } from "@/lib/site"
 
 const hours = [
   { day: "Lunedì", time: "Chiuso", closed: true },
@@ -191,16 +191,25 @@ export function Schedule() {
         {/* Nota informativa a piè di calendario */}
         <div className="mt-6 flex flex-col items-center justify-between gap-3 rounded-xl bg-secondary/50 px-5 py-3.5 text-center text-xs text-muted-foreground sm:flex-row sm:text-left">
           <p>
-            <strong className="text-foreground">Nota bene:</strong> I pani speciali escono in quantità limitata. Per non rischiare di non trovarli, puoi prenotarli il giorno prima.
+            <strong className="text-foreground">Nota bene:</strong> I pani speciali escono in quantità limitata. Per non rischiare di non trovarli, <strong className="text-foreground">sono molto gradite le prenotazioni via telefono o WhatsApp</strong> (anche il giorno prima).
           </p>
-          <a
-            href={whatsappLink()}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="shrink-0 font-semibold text-primary underline underline-offset-4 hover:opacity-80"
-          >
-            Scrivici su WhatsApp →
-          </a>
+          <div className="flex shrink-0 flex-wrap items-center gap-3">
+            <a
+              href={site.phoneHref}
+              className="inline-flex items-center gap-1 font-semibold text-primary underline underline-offset-4 hover:opacity-80"
+            >
+              <Phone className="size-3" /> Chiama: {site.phone}
+            </a>
+            <span className="hidden text-muted-foreground/40 sm:inline">•</span>
+            <a
+              href={whatsappLink()}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 font-semibold text-primary underline underline-offset-4 hover:opacity-80"
+            >
+              <MessageCircle className="size-3" /> Scrivici su WhatsApp →
+            </a>
+          </div>
         </div>
       </div>
 
@@ -269,7 +278,7 @@ export function Schedule() {
             ))}
           </ul>
           <p className="mt-5 text-xs leading-relaxed text-muted-foreground">
-            I prodotti appena sfornati finiscono in fretta: vieni all&apos;orario indicato o prenota per il ritiro.
+            I prodotti appena sfornati finiscono in fretta: vieni all&apos;orario indicato o prenota per il ritiro via telefono o WhatsApp.
           </p>
         </div>
       </div>
