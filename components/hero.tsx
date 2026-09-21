@@ -23,8 +23,7 @@ export function Hero() {
         </h1>
 
         <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
-          Lievito madre, farine macinate a pietra e lunghe fermentazioni. Poche
-          pagnotte al giorno e portate a casa vostra ancora tiepide.
+          Lievito madre, farine macinate a pietra e lunghe fermentazioni
         </p>
 
         <div className="mt-9 flex flex-wrap items-center gap-4">
