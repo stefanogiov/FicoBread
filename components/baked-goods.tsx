@@ -40,7 +40,7 @@ const products: Product[] = [
     image: "/images/product-cacao.png",
     description:
       "Impasto arricchito con cacao, note dolci e mollica scura e morbida.",
-    tags: ["Lievito madre", "Ogni giorno"],
+    tags: ["Lievito madre", "Venerdì", "Sabato"],
   },
   {
     name: "Sfogliati",
@@ -68,6 +68,8 @@ const products: Product[] = [
 const tagStyles: Record<string, string> = {
   "Solo weekend": "bg-primary/12 text-primary",
   "Solo mattina": "bg-primary/12 text-primary",
+  "Venerdì": "bg-primary/12 text-primary",
+  "Sabato": "bg-primary/12 text-primary",
   "Ogni giorno": "bg-accent/12 text-accent",
   "Lievito madre": "bg-secondary text-secondary-foreground",
   Sfoglia: "bg-secondary text-secondary-foreground",
