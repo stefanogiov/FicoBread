@@ -7,7 +7,7 @@ export function Hero() {
       <div className="absolute inset-0 -z-10">
         <img
           src="/images/hero-bakery.png"
-          alt="Pagnotte di pane a lievitazione naturale appena sfornate su un tavolo di legno infarinato"
+          alt="Pagnotte di pane a lievito madre appena sfornate su un tavolo di legno infarinato"
           className="size-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
@@ -19,7 +19,7 @@ export function Hero() {
         </span>
 
         <h1 className="max-w-3xl text-balance font-serif text-5xl font-semibold leading-[1.05] text-foreground sm:text-6xl md:text-7xl">
-          Pane a lievitazione naturale, sfornato ogni mattina.
+          Pane a lievito madre, sfornato ogni mattina.
         </h1>
 
         <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
