@@ -18,7 +18,7 @@ const nunitoSans = Nunito_Sans({
 export const metadata: Metadata = {
   title: 'Fico Bread — Pane a Lievito Madre',
   description:
-    'Micro forno artigianale. Pane a Lievito Madre, sfornato fresco con ingredienti locali. Ordina via WhatsApp.',
+    'Micro forno artigianale. Pane a Lievito Madre, sfornato fresco con ingredienti di qualità. Ordina via WhatsApp.',
   generator: 'v0.app',
   icons: {
     icon: '/images/favicon.png',
