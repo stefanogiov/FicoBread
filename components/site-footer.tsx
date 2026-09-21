@@ -1,5 +1,4 @@
 import { Wheat } from "lucide-react"
-import Link from "next/link"
 import { site } from "@/lib/site"
 
 export function SiteFooter() {
@@ -8,7 +7,7 @@ export function SiteFooter() {
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-5 py-12 text-center sm:flex-row sm:justify-between sm:text-left">
         <div className="flex flex-col gap-2 sm:items-start">
           <div className="flex items-center gap-2">
-            <Wheat className="size-5 text-primary" aria-hidden="true" />
+            {/* <Wheat className="size-5 text-primary" aria-hidden="true" /> */}
             <span className="font-serif text-lg font-semibold text-foreground">
               {site.name}
             </span>
@@ -16,12 +15,6 @@ export function SiteFooter() {
           <p className="text-sm text-muted-foreground">
             {site.address.street}, {site.address.city}
           </p>
-          <Link
-            href="/privacy"
-            className="text-sm text-muted-foreground underline underline-offset-4 transition-colors hover:text-primary"
-          >
-            Privacy & Cookie Policy
-          </Link>
         </div>
 
         <div className="flex flex-col items-center gap-4 sm:items-end">
