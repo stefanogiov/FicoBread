@@ -21,8 +21,17 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="scroll-mt-20 border-t border-border bg-secondary/40 py-24"
+      className="relative isolate overflow-hidden scroll-mt-20 border-t border-border py-24"
     >
+      <div className="absolute inset-0 -z-10">
+        <img
+          src="/images/emiliano-pizza.jpg"
+          alt="Lavorazione della pizza artigianale"
+          className="size-full object-cover"
+        />
+        <div className="absolute inset-0 bg-background/80 backdrop-blur-[2px]" />
+      </div>
+
       <div className="mx-auto max-w-6xl px-5">
         <div className="text-center">
           <span className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
