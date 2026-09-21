@@ -96,7 +96,7 @@ export function BakedGoods() {
           </div>
           <p className="max-w-sm text-pretty leading-relaxed text-muted-foreground">
             Le quantità sono limitate: consigliamo di prenotare in anticipo per
-            non restare senza pane.
+            non restare senza.
           </p>
         </div>
 
