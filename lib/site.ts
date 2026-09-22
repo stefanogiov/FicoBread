@@ -1,6 +1,7 @@
 export const site = {
   name: "Fico Bread S.r.l.s.",
   tagline: "Storie di pane, pizza e lievitati",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://ficobread.it",
   // Digits only, international format, no + or spaces — used for wa.me links
   whatsapp: "390683384443",
   whatsappMessage: "Ciao! Vorrei ordinare del pane per questa settimana.",
