@@ -57,7 +57,7 @@ export function SiteFooter() {
             </a>
           </div>
           <p className="text-sm text-muted-foreground">
-            © 2025 {site.name}. Storie di pane, pizza e lievitati.
+            © 2026 {site.name}. Storie di pane, pizza e lievitati.
           </p>
         </div>
       </div>
