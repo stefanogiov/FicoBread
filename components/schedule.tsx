@@ -3,8 +3,11 @@ import { site, whatsappLink } from "@/lib/site"
 
 const hours = [
   { day: "Lunedì", time: "Chiuso", closed: true },
-  { day: "Martedì – Venerdì", time: "08:30 – 13:30 · 15:30 – 18:30" },
-  { day: "Sabato", time: "08:30 – 13:00" },
+  { day: "Martedì", time: "08:30 – 13:30 · 15:30 – 18:00" },
+  { day: "Mercoledì", time: "08:30 – 13:30 · 15:30 – 18:00" },
+  { day: "Giovedì", time: "08:30 – 13:30" },
+  { day: "Venerdì", time: "08:30 – 13:30 · 15:30 – 18:00" },
+  { day: "Sabato", time: "08:30 – 13:30" },
   { day: "Domenica", time: "Chiuso", closed: true },
 ]
 
