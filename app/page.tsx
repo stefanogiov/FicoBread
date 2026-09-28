@@ -5,6 +5,7 @@ import { BakedGoods } from "@/components/baked-goods"
 import { Schedule } from "@/components/schedule"
 import { Contact } from "@/components/contact"
 import { SiteFooter } from "@/components/site-footer"
+import { SocialProof } from "@/components/social-proof"
 
 import Maintenance from "@/components/maintenance"
 
@@ -26,6 +27,7 @@ export default function Page() {
         <About />
         <BakedGoods />
         <Schedule />
+        <SocialProof />
         <Contact />
       </main>
       <SiteFooter />
