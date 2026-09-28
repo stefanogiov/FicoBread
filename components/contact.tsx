@@ -52,7 +52,12 @@ export function Contact() {
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2">
-              <div className="rounded-2xl border border-border bg-card p-5">
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Fico+Bread+Storie+di+pane+pizza+e+lievitati%2C+Viale+Ungheria+8%2C+Palestrina"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-2xl border border-border bg-card p-5 transition-colors hover:bg-secondary"
+              >
                 <MapPin className="size-5 text-primary" aria-hidden="true" />
                 <p className="mt-3 text-sm font-semibold text-foreground">
                   Indirizzo
@@ -62,7 +67,7 @@ export function Contact() {
                   <br />
                   {site.address.city}
                 </p>
-              </div>
+              </a>
               <a
                 href={site.phoneHref}
                 className="rounded-2xl border border-border bg-card p-5 transition-colors hover:bg-secondary"
