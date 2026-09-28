@@ -8,6 +8,7 @@ const links = [
   { href: "#about", label: "Il Forno" },
   { href: "#products", label: "Le Sfornate" },
   { href: "#schedule", label: "Orari" },
+  { href: "#reviews", label: "Recensioni" },
   { href: "#contact", label: "Contatti" },
 ]
 
